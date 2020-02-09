@@ -1,5 +1,5 @@
 class Restaurant:
-    def __init__(self, rating, num_ratings, price_level, name, place_id, lat, lng, photo_refs, travel_info):
+    def __init__(self, rating, num_ratings, price_level, name, place_id, lat, lng, _photo_refs, travel_info):
         self.rating = rating
         self.num_ratings = num_ratings
         self.price_level = price_level
@@ -8,7 +8,7 @@ class Restaurant:
         self.lat = lat
         self.lng = lng
         self.travel_info = travel_info
-        self._photo_refs = photo_refs
+        self._photo_refs = _photo_refs
 
     @staticmethod
     def from_api_resp(resp):
@@ -25,6 +25,7 @@ class Restaurant:
         }
         return Restaurant(**props)
 
+
     @property
     def photos(self):
         raise NotImplementedError()
@@ -32,3 +33,13 @@ class Restaurant:
     @property
     def coords(self):
         return self.lat, self.lng
+
+
+class ScoredRestaurant(Restaurant):
+    def __init__(self, score, **kwargs):
+        super().__init__(**kwargs)
+        self.score = score
+
+
+
+

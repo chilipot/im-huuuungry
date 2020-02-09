@@ -27,6 +27,25 @@ def make_request(url, method='get', params=None, body=None, **kwargs):
     return result
 
 
+def meters_to_miles(m):
+    """
+    Converts meters to miles because google loves meters
+    :param m: dist in meters
+    :return: dist in miles
+    """
+    METERS_PER_MILE = 0.000621371
+    return m * METERS_PER_MILE
+
+
+def dot_product(v1, v2):
+    """ Dot product of two vectors v1 and v2 """
+    return sum(x * y for x, y in zip(v1, v2))
+
+
+def fix_photo_refs_rest_dict(r):
+    return {(k if k != "_photo_refs" else "photo_refs"): v for k, v in r.items()}
+
+
 def make_func(func, *args, **kwargs):
     return lambda: func(*args, **kwargs)
 
