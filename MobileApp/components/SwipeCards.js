@@ -1,8 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, TouchableOpacity, SafeAreaView } from 'react-native'
+import { Platform, StyleSheet, Text, View, Image, TouchableOpacity, SafeAreaView } from 'react-native'
 import SwipeCards from 'react-native-swipe-cards';
+import Constants from 'expo-constants';
 import { useNavigation } from '@react-navigation/native';
-import { Geolocation } from '@react-native-community/geolocation';
+import * as Location from 'expo-location';
+import * as Permissions from 'expo-permissions';
 
 const Card = (props) => {
     return (
@@ -29,37 +31,62 @@ const DetailsCard = (props) => {
     )
 }
 
+const { manifest } = Constants;
+
+const uri = `http://localhost:5000`;
+
 const RestaurantCard = (props) => {
     const navigation = useNavigation();
     const [cards, setCards] = React.useState([]);
+    const [currentLocation, setCurrentLocation] = React.useState({location: null, errorMessage: null});
+    const [apiData, setApiData] = React.useState()
 
-    React.useEffect(() => getCards(), [])
+    _getLocationAsync = async () => {
+        let { status } = await Permissions.askAsync(Permissions.LOCATION);
+        if (status !== 'granted') {
+          setCurrentLocation({
+            errorMessage: 'Permission to access location was denied',
+          });
+        }
 
-    Geolocation.getCurrentPosition(
-       //Will give you the current location
-       (position) => {
-           const currentLongitude = JSON.stringify(position.coords.longitude);
-           //getting the Longitude from the location json
-           const currentLatitude = JSON.stringify(position.coords.latitude);
-           //getting the Latitude from the location json
-       },
-       (error) => alert(error.message),
-       {
-          enableHighAccuracy: true, timeout: 20000, maximumAge: 1000
-       }
-    );
+        let location = await Location.getCurrentPositionAsync({});
+        setCurrentLocation({location});
+        console.warn(location);
+    };
+
+    React.useEffect(() => {
+        console.warn('Loading GeoLocation');
+        if (Platform.OS === 'android' && !Constants.isDevice) {
+            setCurrentLocation({location: currentLocation.location, errorMessage: "Android bitch"})
+        } else {
+            _getLocationAsync();
+        }
+    },[])
 
     const getCards = () => {
-        fetch('')
-        .then(res => res.json())
-        .then((data) => {
-            setCards(data.ids.map(id => data.by_id[id]))
-        })
-        .catch(e => console.log(e))
+        if (currentLocation.location != null) {
+            console.warn('Loading Cards');
+            const params = `coords=${currentLocation.location.coords.latitude},${currentLocation.location.longitude}&cuisine=burgers&use_cache=True`;
+            const apiUrl = uri + '/restaurants?' + params;
+            console.warn(apiUrl);
+            fetch(apiUrl)
+            .then(res => res.json())
+            .then((data) => {
+                setApiData(data);
+                setCards(data.ids.map(id => data.by_id[id]))
+                console.warn(cards);
+            })
+            .catch(e => console.log(e))
+        }
     }
 
-    const setCardsLocBranch = () => setCards(data.ids_loc_branch.map(id => data.by_id[id]));
-    const setCardsPriceBranch = () => setCards(data.ids_price_branch.map(id => data.by_id[id]));
+    React.useEffect(() => {
+        getCards();
+    }, [currentLocation])
+
+
+    const setCardsLocBranch = () => setCards(apiData.ids_loc_branch.map(id => apiData.by_id[id]));
+    const setCardsPriceBranch = () => setCards(apiData.ids_price_branch.map(id => apiData.by_id[id]));
 
     const handleYup = (card) => {
         console.log(`Yup for ${card.name}`);
@@ -78,10 +105,11 @@ const RestaurantCard = (props) => {
 
                 smoothTransition={true}
             />
+            {(cards.length > 0) ?
             <View style={styles.buttons}>
                 <TouchableOpacity style={styles.button} onPress={() => setCardsLocBranch()}><Text style={styles.buttonText}>{"\uD83D\uDCB0"}</Text></TouchableOpacity>
                 <TouchableOpacity style={styles.button} onPress={() => setCardsPriceBranch()}><Text style={styles.buttonText}>{"\uD83D\uDCCF"}</Text></TouchableOpacity>
-            </View>
+            </View> : null}
         </SafeAreaView>
     )
 }
