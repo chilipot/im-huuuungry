@@ -20,9 +20,7 @@ def index():
 @app.route('/photo/<photo_ref>')
 def get_photo(photo_ref):
     resp = get_restaurant_pic(photo_ref)
-    flask_resp = make_response(resp)
-    flask_resp.headers['Content-Type'] = "image/jpeg"
-    return flask_resp, 200
+    return jsonify({"url": resp}), 200
 
 
 @app.route('/restaurants')
