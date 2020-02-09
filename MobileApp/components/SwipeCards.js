@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity, SafeAreaView } from 'react-native'
 import SwipeCards from 'react-native-swipe-cards';
 import { useNavigation } from '@react-navigation/native';
+import { Geolocation } from '@react-native-community/geolocation';
 
 const Card = (props) => {
     return (
@@ -30,17 +31,35 @@ const DetailsCard = (props) => {
 
 const RestaurantCard = (props) => {
     const navigation = useNavigation();
-    const [cards, setCards] = React.useState([
-                                               {name: '1', image: 'https://media.giphy.com/media/GfXFVHUzjlbOg/giphy.gif'},
-                                               {name: '2', image: 'https://media.giphy.com/media/irTuv1L1T34TC/giphy.gif'},
-                                               {name: '3', image: 'https://media.giphy.com/media/LkLL0HJerdXMI/giphy.gif'},
-                                               {name: '4', image: 'https://media.giphy.com/media/fFBmUMzFL5zRS/giphy.gif'},
-                                               {name: '5', image: 'https://media.giphy.com/media/oDLDbBgf0dkis/giphy.gif'},
-                                               {name: '6', image: 'https://media.giphy.com/media/7r4g8V2UkBUcw/giphy.gif'},
-                                               {name: '7', image: 'https://media.giphy.com/media/K6Q7ZCdLy8pCE/giphy.gif'},
-                                               {name: '8', image: 'https://media.giphy.com/media/hEwST9KM0UGti/giphy.gif'},
-                                               {name: '9', image: 'https://media.giphy.com/media/3oEduJbDtIuA2VrtS0/giphy.gif'},
-                                             ]);
+    const [cards, setCards] = React.useState([]);
+
+    React.useEffect(() => getCards(), [])
+
+    Geolocation.getCurrentPosition(
+       //Will give you the current location
+       (position) => {
+           const currentLongitude = JSON.stringify(position.coords.longitude);
+           //getting the Longitude from the location json
+           const currentLatitude = JSON.stringify(position.coords.latitude);
+           //getting the Latitude from the location json
+       },
+       (error) => alert(error.message),
+       {
+          enableHighAccuracy: true, timeout: 20000, maximumAge: 1000
+       }
+    );
+
+    const getCards = () => {
+        fetch('')
+        .then(res => res.json())
+        .then((data) => {
+            setCards(data.ids.map(id => data.by_id[id]))
+        })
+        .catch(e => console.log(e))
+    }
+
+    const setCardsLocBranch = () => setCards(data.ids_loc_branch.map(id => data.by_id[id]));
+    const setCardsPriceBranch = () => setCards(data.ids_price_branch.map(id => data.by_id[id]));
 
     const handleYup = (card) => {
         console.log(`Yup for ${card.name}`);
@@ -60,8 +79,8 @@ const RestaurantCard = (props) => {
                 smoothTransition={true}
             />
             <View style={styles.buttons}>
-                <TouchableOpacity style={styles.button} onPress={() => alert('money bitch')}><Text style={styles.buttonText}>{"\uD83D\uDCB0"}</Text></TouchableOpacity>
-                <TouchableOpacity style={styles.button} onPress={() => alert('distance slut')}><Text style={styles.buttonText}>{"\uD83D\uDCCF"}</Text></TouchableOpacity>
+                <TouchableOpacity style={styles.button} onPress={() => setCardsLocBranch()}><Text style={styles.buttonText}>{"\uD83D\uDCB0"}</Text></TouchableOpacity>
+                <TouchableOpacity style={styles.button} onPress={() => setCardsPriceBranch()}><Text style={styles.buttonText}>{"\uD83D\uDCCF"}</Text></TouchableOpacity>
             </View>
         </SafeAreaView>
     )
