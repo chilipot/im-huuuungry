@@ -1,13 +1,14 @@
 import os
 import time
 
-from models.models import Restaurant, ScoredRestaurant
+from models.models import Restaurant
 from controllers.score_service import Scorer
 from utils import make_request
 from utils import meters_to_miles
 
 NEARBY_PLACE_API_URL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 DISTANCE_MATRIX_API_URL = "https://maps.googleapis.com/maps/api/distancematrix/json"
+PLACE_PICTURE_API_URL = "https://maps.googleapis.com/maps/api/place/photo"
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 RESTAURANT_TYPE = "restaurant"
 
@@ -56,6 +57,17 @@ def get_restaurants(coords, radius=None, maxprice=3, keyword=None, count=60):
     return restaurants
 
 
+def get_restaurant_pic(photo_ref, max_width=400, max_height=400):
+    params = {
+        "key": GOOGLE_API_KEY,
+        "photoreference": photo_ref,
+        "maxwidth": max_width,
+        "maxheight": max_height
+    }
+    resp = make_request(PLACE_PICTURE_API_URL, params=params, as_json=False)
+    return resp
+
+
 def add_travel_info(raw_rests, coords):
     """Adds travel info"""
     params = {
@@ -101,6 +113,14 @@ def scored_restaurant_ids(restaurants, wt_loc, wt_rating, wt_price):
     scores = scorer.score_many(restaurants)
     zip_list = [(score, rest.place_id) for score, rest in zip(scores, restaurants)]
     return [place_id for score, place_id in sorted(zip_list, key=lambda tup: tup[0], reverse=True)]
+
+
+def restaurants_with_scores(restaurants, wt_loc, wt_rating, wt_price):
+    scorer = Scorer(wt_loc, wt_rating, wt_price)
+    scores = scorer.score_many(restaurants)
+    rests_by_id = restaurants_by_id(restaurants)
+    zip_list = [(score, rest.place_id) for score, rest in zip(scores, restaurants)]
+    return [(score, rests_by_id[place_id]) for score, place_id in sorted(zip_list, key=lambda tup: tup[0], reverse=True)]
 
 
 def restaurants_by_id(restaurants):

@@ -1,18 +1,29 @@
 import json
 from flask_cors import CORS
 import controllers.restaurant_service as rest_service
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, make_response
 
+from controllers.restaurant_service import get_restaurant_pic
 from models.models import Restaurant
 
-WT_INCR = 1
+WT_INCR = 2
 
 app = Flask(__name__)
 CORS().init_app(app)
 
+
 @app.route('/')
 def index():
     return "Why would you make the API call the root URI"
+
+
+@app.route('/photo/<photo_ref>')
+def get_photo(photo_ref):
+    resp = get_restaurant_pic(photo_ref)
+    flask_resp = make_response(resp)
+    flask_resp.headers['Content-Type'] = "image/jpeg"
+    return flask_resp, 200
+
 
 @app.route('/restaurants')
 def get_scored_restaurants():
@@ -49,8 +60,11 @@ def get_scored_restaurants():
         "by_id": json_compatible_rests_by_id,
         "ids": scored_restaurant_ids_curr,
         "ids_loc_branch": scored_restaurant_ids_up_loc,
-        "ids_price_branch": scored_restaurant_ids_up_price
+        "ids_price_branch": scored_restaurant_ids_up_price,
+        "loc_branch_weights": {"wt_loc": wt_loc + WT_INCR, "wt_rating": wt_rating, "wt_price": wt_price},
+        "price_branch_weights": {"wt_loc": wt_loc, "wt_rating": wt_rating, "wt_price": wt_price + WT_INCR}
     }), 200
+
 
 if __name__ == '__main__':
     app.run(debug=True)
