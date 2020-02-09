@@ -20,7 +20,7 @@ def index():
 @app.route('/photo/<photo_ref>')
 def get_photo(photo_ref):
     resp = get_restaurant_pic(photo_ref)
-    return resp, 200
+    return jsonify({"url": resp}), 200
 
 
 @app.route('/restaurants')
