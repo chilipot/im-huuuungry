@@ -49,7 +49,9 @@ def get_scored_restaurants():
         "by_id": json_compatible_rests_by_id,
         "ids": scored_restaurant_ids_curr,
         "ids_loc_branch": scored_restaurant_ids_up_loc,
-        "ids_price_branch": scored_restaurant_ids_up_price
+        "ids_price_branch": scored_restaurant_ids_up_price,
+        "loc_branch_weights": {"wt_loc": wt_loc + WT_INCR, "wt_rating": wt_rating, "wt_price": wt_price},
+        "price_branch_weights": {"wt_loc": wt_loc, "wt_rating": wt_rating, "wt_price": wt_price + WT_INCR}
     }), 200
 
 if __name__ == '__main__':
