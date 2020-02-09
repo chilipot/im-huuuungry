@@ -5,6 +5,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { Appearance, AppearanceProvider, useColorScheme } from 'react-native-appearance';
 import HomeScreen from './screens/Home';
 import DetailsScreen from './screens/Details';
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
+
 
 
 const Stack = createStackNavigator();
@@ -20,9 +22,9 @@ export default function App() {
         border: 'rgb(199, 199, 204)',
       },
       font: {
-        normal: 32,
-        medium: 48,
-        large: 64
+        normal: wp('5%'),
+        medium: wp('8%'),
+        large: wp('12%')
       }
   }
 

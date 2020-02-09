@@ -1,30 +1,30 @@
 import React from 'react';
-import { SafeAreaView, View, FlatList, StyleSheet, Text, Image, TouchableHighlight } from 'react-native';
+import { SafeAreaView, View, FlatList, StyleSheet, Text, Image, TouchableHighlight, Modal } from 'react-native';
 import { NavigationContainer, useTheme } from '@react-navigation/native';
 import Constants from 'expo-constants';
 import Card from '../components/Card';
 import cuisineData from '../storage/cuisines.json';
-import { Menu, MenuProvider, MenuOptions, MenuOption, MenuTrigger, close } from "react-native-popup-menu";
-
+import Menu, {
+  MenuProvider,
+  MenuOptions,
+  MenuOption,
+  MenuTrigger,
+} from 'react-native-popup-menu';
 
 
 const AddCuisine = ({options, select}) => {
-      const [menuOpen, setMenuOpen] = React.useState(false)
-      const handleSelect = (value) => {setMenuOpen(false); select(value)};
+      const handleSelect = (value) => {setModalVisible(false); select(value)};
       const { colors, font } = useTheme();
 
       const styles = StyleSheet.create({
         container: {
             flex: 1,
+            alignItems: 'center',
             flexDirection: 'column',
             padding: 30,
             marginTop: Constants.statusBarHeight,
-            backgroundColor: colors.background
         },
         header: {
-            fontSize: font.normal,
-            color: colors.text,
-            textAlign: 'center',
         },
         dropdownItem: {
             alignItems: 'center',
@@ -33,25 +33,41 @@ const AddCuisine = ({options, select}) => {
         dropdownText: {
             fontSize: font.normal,
             textAlign: 'center'
-        }
+        },
+        modalButton: {
+          fontSize: font.normal,
+          color: colors.text,
+          textAlign: 'center',
+          backgroundColor: 'white',
+          borderStyle: 'solid',
+          borderRadius: 20,
+          borderColor: 'gray',
+          padding: 10,
+          width: 300,
+          margin: 'auto',
+        },
       })
+       const [modalVisible, setModalVisible] = React.useState(false);
 
       return (
-          <MenuProvider style={styles.container}>
-            <Menu opened={menuOpen} onSelect={value => handleSelect(value)} onBackdropPress={() => setMenuOpen(false)} onRequestClose={() => setMenuOpen(false)}>
-
-              <MenuTrigger onPress={() => setMenuOpen(true)}><Text style={styles.header}>Add Cuisine</Text></MenuTrigger>
-
-              <MenuOptions>
-                {options.map((optionData) => {
-                    return (<MenuOption style={styles.dropdownItem} value={optionData}>
-                        <Text style={styles.dropdownText}>{optionData.label}</Text>
-                    </MenuOption>)
-                })}
-              </MenuOptions>
-
-            </Menu>
-          </MenuProvider>
+          <View style={styles.container}>
+              <TouchableHighlight style={styles.modalButton} onPress={() => setModalVisible(true)}><Text style={styles.dropdownText}>Add Cuisine</Text></TouchableHighlight>
+                <Modal visible={modalVisible} onRequestClose={() => setModalVisible(false)}>
+                    <TouchableHighlight
+                        style={styles.dropdownItem}
+                        onPress={() => setModalVisible(false)}>
+                            <Text style={styles.dropdownText}>X</Text>
+                    </TouchableHighlight>
+                    {options.map((optionData) => {
+                        return (<TouchableHighlight
+                                    style={styles.dropdownItem}
+                                    value={optionData}
+                                    onPress={() => handleSelect(optionData)}>
+                            <Text style={styles.dropdownText}>{optionData.label}</Text>
+                        </TouchableHighlight>)
+                    })}
+                </Modal>
+          </View>
         );
 }
 
@@ -83,7 +99,8 @@ function HomeScreen({navigation}) {
       },
       header: {
         fontSize: font.large,
-        color: colors.text
+        color: colors.text,
+        textAlign: 'center'
       },
       card: {
         backgroundColor: colors.card
@@ -95,7 +112,7 @@ function HomeScreen({navigation}) {
             <Text style={styles.header}>What Do You Want?</Text>
               <FlatList
                 data={cuisines.filter(c => selectedCuisineIds.includes(c.id))}
-                renderItem={({ item }) => <Card title={item.label} navigation={navigation} target="Details" deleteCuisine={() => removeSelectedCuisineId(item.id)}/>}
+                renderItem={({ item }) => <Card title={item.label} emoji={item.emoji} navigation={navigation} target="Details" deleteCuisine={() => removeSelectedCuisineId(item.id)}/>}
                 keyExtractor={item => item.id}
               />
               {(selectedCuisineIds.length < 3) ? <AddCuisine options={cuisines.filter(c => !selectedCuisineIds.includes(c.id))} select={addSelectedCuisineId}/> : null}

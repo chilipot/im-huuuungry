@@ -5,6 +5,7 @@ import Constants from 'expo-constants';
 import { useNavigation, useTheme } from '@react-navigation/native';
 import * as Location from 'expo-location';
 import * as Permissions from 'expo-permissions';
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 
 const uri = 'http://danguddemi.pythonanywhere.com';
@@ -35,6 +36,7 @@ const secondsAsTimeStr = (secs) => {
 }
 
 const Card = (props) => {
+    const [photoUrl, setPhotoUrl] = React.useState()
     const {colors, font} = useTheme();
     const cardStyles = StyleSheet.create({
         card: {
@@ -45,25 +47,46 @@ const Card = (props) => {
             backgroundColor: 'white',
             borderWidth: 1,
             elevation: 1,
-            padding: 30
+            padding: 30,
+            width: wp('80%'),
+            height: wp('100%'),
         },
         name: {
             fontSize: font.large,
-            color: colors.text
+            color: colors.text,
+            textAlign: 'center'
         },
         meta: {
             fontSize: font.medium,
-            color: colors.text
+            color: colors.text,
+            textAlign: 'center',
         },
         thumbnail: {
-            width: 600,
-            height: 500,
+          flex: 1,
+          alignSelf: 'stretch',
+            width: '100%',
+            height: 'auto',
+            borderColor: 'gray',
+            borderStyle: 'solid',
+            borderWidth: 1
         }
     })
 
+    React.useEffect(() => {
+        const apiUrl = uri + '/photo/' + props._photo_refs[0];
+        fetch(apiUrl)
+        .then(res => res.json())
+        .then((data) => {
+            console.warn(data);
+            setPhotoUrl(data.url);
+        })
+        .catch(e => console.log(e))
+    }, [props._photo_refs])
+
+
     return (
       <View style={cardStyles.card}>
-        <Image style={cardStyles.thumbnail} source={{uri: `${uri}/photo/${props._photo_refs[0]}`}} />
+        <Image style={cardStyles.thumbnail} source={{uri: photoUrl || 'http://www.n-aana.org/_images/board%20photos/Image_Missing_placeholder.jpg'}} />
         <Text style={cardStyles.meta}>{secondsAsTimeStr(props.travel_info.walking.duration)}{"\uD83D\uDEB6"}</Text>
         <Text style={cardStyles.meta}>{priceLevelMap[props.price_level]}</Text>
         <Text style={cardStyles.name}>{props.name}</Text>
@@ -187,7 +210,7 @@ const RestaurantCard = (props) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 20,
+    fontSize: wp('5%'),
     paddingTop: 10,
     paddingBottom: 10
   },
@@ -202,10 +225,11 @@ const styles = StyleSheet.create({
 
   },
   button: {
-    padding: 50,
+    padding: 40,
     borderColor: 'black',
     borderRadius: 10,
-    borderWidth: 1
+    borderWidth: 1,
+    backgroundColor: 'white'
   },
   buttonText: {
     fontSize: 64

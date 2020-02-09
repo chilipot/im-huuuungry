@@ -3,6 +3,7 @@ import { SafeAreaView, View, FlatList, StyleSheet, Text, Image, TouchableOpacity
 import Swipeout from 'react-native-swipeout';
 import { useTheme } from '@react-navigation/native';
 import Constants from 'expo-constants';
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 /**
  * Represents Card component.
@@ -12,14 +13,14 @@ import Constants from 'expo-constants';
  * @param {string} target - The Navigation url name to switch to when pressed.
  * @param deleteCuisine - function prop to delete the cuisine of that this card represents.
  */
-function Card({ title, navigation, target, deleteCuisine }) {
+function Card({ title, emoji, navigation, target, deleteCuisine }) {
 
     const { colors, font } = useTheme();
 
     const styles = StyleSheet.create({
       item: {
         backgroundColor: colors.card,
-        padding: 30,
+        padding: wp('10%'),
         marginVertical: 8,
         marginHorizontal: 16,
       },
@@ -42,7 +43,7 @@ function Card({ title, navigation, target, deleteCuisine }) {
         backgroundColor='transparent'>
         <TouchableOpacity onPress={() => navigation.navigate(target, {cuisine: title})}>
             <View style={styles.item}>
-              <Text style={styles.title}>{title}</Text>
+              <Text style={styles.title}>{title} {emoji}</Text>
             </View>
         </TouchableOpacity>
     </Swipeout>
