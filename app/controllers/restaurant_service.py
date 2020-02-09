@@ -1,13 +1,14 @@
 import os
 import time
 
-from models.models import Restaurant, ScoredRestaurant
+from models.models import Restaurant
 from controllers.score_service import Scorer
 from utils import make_request
 from utils import meters_to_miles
 
 NEARBY_PLACE_API_URL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 DISTANCE_MATRIX_API_URL = "https://maps.googleapis.com/maps/api/distancematrix/json"
+PLACE_PICTURE_API_URL = "https://maps.googleapis.com/maps/api/place/photo"
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 RESTAURANT_TYPE = "restaurant"
 
@@ -54,6 +55,17 @@ def get_restaurants(coords, radius=None, maxprice=3, keyword=None, count=60):
     raw_restaurants = add_travel_info(raw_restaurants, coords)
     restaurants = [Restaurant.from_api_resp(raw_rest) for raw_rest in raw_restaurants]
     return restaurants
+
+
+def get_restaurant_pic(photo_ref, max_width=400, max_height=400):
+    params = {
+        "key": GOOGLE_API_KEY,
+        "photoreference": photo_ref,
+        "maxwidth": max_width,
+        "maxheight": max_height
+    }
+    resp = make_request(PLACE_PICTURE_API_URL, params=params, as_json=False)
+    return resp
 
 
 def add_travel_info(raw_rests, coords):

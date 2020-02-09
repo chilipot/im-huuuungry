@@ -3,7 +3,7 @@ from concurrent import futures
 import requests
 
 
-def make_request(url, method='get', params=None, body=None, **kwargs):
+def make_request(url, method='get', params=None, body=None, as_json=True, **kwargs):
     """
     Requests wrapper with error handling
     :param url: URL to make request
@@ -19,7 +19,7 @@ def make_request(url, method='get', params=None, body=None, **kwargs):
             req_args["body"] = body
         resp = getattr(requests, method)(url, **req_args, **kwargs)
         resp.raise_for_status()
-        result = resp.json()
+        result = resp.json() if as_json else resp.content
     except requests.exceptions.HTTPError as e:
         print(e)  # Perform some kind of logging
     except Exception as err:
