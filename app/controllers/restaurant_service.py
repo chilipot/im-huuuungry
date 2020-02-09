@@ -115,5 +115,13 @@ def scored_restaurant_ids(restaurants, wt_loc, wt_rating, wt_price):
     return [place_id for score, place_id in sorted(zip_list, key=lambda tup: tup[0], reverse=True)]
 
 
+def restaurants_with_scores(restaurants, wt_loc, wt_rating, wt_price):
+    scorer = Scorer(wt_loc, wt_rating, wt_price)
+    scores = scorer.score_many(restaurants)
+    rests_by_id = restaurants_by_id(restaurants)
+    zip_list = [(score, rest.place_id) for score, rest in zip(scores, restaurants)]
+    return [(score, rests_by_id[place_id]) for score, place_id in sorted(zip_list, key=lambda tup: tup[0], reverse=True)]
+
+
 def restaurants_by_id(restaurants):
     return {r.place_id: r for r in restaurants}

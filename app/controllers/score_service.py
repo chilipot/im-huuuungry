@@ -70,15 +70,15 @@ class Scorer:
         """
         # Normalize the star rating a 0-1 value
         normalized_avg_rating = (rest.rating - 1) / 4
+        middle_rating = 0.5
         # Compare the number of ratings received by this restaurant to the average number of ratings
         # received by restaurants in this batch
         num_rating_ratio = rest.num_ratings / avg_number_of_ratings
         # Normalize this ratio so that restaurants don't benefit from any more than roughly twice
         # the average number of ratings
         normalized_num_review_ratio = math.tanh(math.sqrt(5 * num_rating_ratio))
-        # Essentially the distance from the origin, scaled down
-        final_score = math.sqrt(
-            (normalized_avg_rating ** 2 + normalized_num_review_ratio ** 2) / 2)
+        # Scale the delta from the middle ratio using the normalized num review ratio
+        final_score = ((normalized_avg_rating - middle_rating) * normalized_num_review_ratio) + middle_rating
         return final_score
 
     def calc_price_score(self, rest):
