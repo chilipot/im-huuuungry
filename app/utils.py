@@ -19,7 +19,7 @@ def make_request(url, method='get', params=None, body=None, as_json=True, **kwar
             req_args["body"] = body
         resp = getattr(requests, method)(url, **req_args, **kwargs)
         resp.raise_for_status()
-        result = resp.json() if as_json else resp.content
+        result = resp.json() if as_json else resp.url
     except requests.exceptions.HTTPError as e:
         print(e)  # Perform some kind of logging
     except Exception as err:
