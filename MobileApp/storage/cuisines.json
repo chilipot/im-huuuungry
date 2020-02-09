@@ -1,0 +1,22 @@
+[
+    {
+      "id": "0",
+      "label": "Burgers",
+      "emoji": "\uD83C\uDF54"
+    },
+    {
+      "id": "1",
+      "label": "Pizza",
+      "emoji": "\uD83C\uDF55"
+    },
+    {
+      "id": "2",
+      "label": "Asian",
+      "emoji": "\uD83E\uDD5F"
+    },
+    {
+      "id": "3",
+      "label": "Mexican",
+      "emoji": "\uD83C\uDF2E"
+    }
+]
