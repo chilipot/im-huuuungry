@@ -1,0 +1,522 @@
+[
+  {
+    "_photo_refs": [
+      "CmRaAAAAY9cdGEiSy_cFEt88zk_utAQwbAuC5yosegBp7rQZSYR99ORi0rBUBG7UiDk5zCHlUWR7Yp0sHqhoN1WF_C2PwlaSB0VY6PzHQ7hPp39B3DYjtDv-BB5llPamGPhimm2mEhCgo7ebC9YV1FdGTspJBwDiGhTx58PpKMSEhi7Yy2d8aN-I--Ugpg"
+    ],
+    "lat": 42.367308,
+    "lng": -71.035698,
+    "name": "Italian Express Pizzeria",
+    "num_ratings": 530,
+    "place_id": "ChIJQT3kJWhw44kRc00JDQ-ahgg",
+    "price_level": 2,
+    "rating": 4.6,
+    "travel_info": {
+      "driving": {
+        "distance": 5.010735744,
+        "duration": 983
+      },
+      "transit": {
+        "distance": 2.02566946,
+        "duration": 1434
+      },
+      "walking": {
+        "distance": 2.9341138620000002,
+        "duration": 2973
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAdS689cNTT5IW2GhEGEGONl4h4P1qf45eHETOtvhHudHtmazTgfAnq07_NLd2r9g4CAZWbA6ereVK7sdHvxw86dMLlmCTxNHaeym0wgwq5_mcSzSjoq43sXwO3J36qt-MEhBly8pTuY6eY7iZen_Tq92YGhQglrudXHlqaMSqpDkJPiXQfYsrYA"
+    ],
+    "lat": 42.3631001,
+    "lng": -71.0246295,
+    "name": "Sbarro",
+    "num_ratings": 60,
+    "place_id": "ChIJNRT5Pvpw44kRk5aQvXqUJdI",
+    "price_level": 1,
+    "rating": 2.6,
+    "travel_info": {
+      "driving": {
+        "distance": 2.476163435,
+        "duration": 438
+      },
+      "transit": {
+        "distance": 6.1534370130000005,
+        "duration": 2096
+      },
+      "walking": {
+        "distance": 2.30528641,
+        "duration": 2234
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAIpWxZmDtPS-oCcl2yP_0Z5Ecw61aDLR7YkKDc1qVoy0-0RQWxduh13Yo2MdrNPL89A6e9JHdGExubTMnovYp9bFOXXWH4rFCFgLUVB3H0rJ9qJ3hkt6xUrCibNdrx277EhCtS6CNmmnGwLVtLz3S97iIGhQqupaTTn3wrBxnQBw33Ds_Rf0ILg"
+    ],
+    "lat": 42.3506301,
+    "lng": -71.0491526,
+    "name": "Pastoral ARTisan Pizza + Kitchen + Bar",
+    "num_ratings": 923,
+    "place_id": "ChIJoQcTHYB644kR043KmRBV0lk",
+    "price_level": 2,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 0.329948001,
+        "duration": 187
+      },
+      "transit": {
+        "distance": 0.122410087,
+        "duration": 153
+      },
+      "walking": {
+        "distance": 0.122410087,
+        "duration": 153
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAv7TRqjZFA28fLQq9XCILb62gHcwLShTMgaNh6zY06RqGJr6U9pO5P59jLJkh7qkBLBprmEU1cCHhKwyPkIKwb4J7oI9d4GHsE0kOkuE8DKAgljrHgPMGEWBPmBM5vlCsEhB-5NjcO481fGqs0opgIFqzGhSgVBu7n3jId4je2104SXV5vq_vIw"
+    ],
+    "lat": 42.3604526,
+    "lng": -71.0550992,
+    "name": "Regina Pizzeria",
+    "num_ratings": 179,
+    "place_id": "ChIJf2D-PoZw44kRZDfACqwEQh4",
+    "price_level": 1,
+    "rating": 4,
+    "travel_info": {
+      "driving": {
+        "distance": 2.519659405,
+        "duration": 514
+      },
+      "transit": {
+        "distance": 0.960018195,
+        "duration": 1194
+      },
+      "walking": {
+        "distance": 0.960018195,
+        "duration": 1194
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAASQVPXujnvvxbCiggsHwTJefPiqU9S9u5lK5-yhti1JkDbGc7CQtLb46S1l8ifWO2GaZr66gKAQREga1qf2tZlD7ScNBgwj7CGlDi06kMWDYF8n2Ef3CM6L9leb9DCnN8EhBXzc4OV3y9lXrq0WbSXZcbGhTrczTcDoNxQUp8LV07Qwui64e2rA"
+    ],
+    "lat": 42.3590666,
+    "lng": -71.054993,
+    "name": "Crush Pizza",
+    "num_ratings": 550,
+    "place_id": "ChIJbay0fIZw44kRSvLxWaxrnqA",
+    "price_level": 1,
+    "rating": 4.5,
+    "travel_info": {
+      "driving": {
+        "distance": 0.9190077090000001,
+        "duration": 471
+      },
+      "transit": {
+        "distance": 0.818345607,
+        "duration": 1016
+      },
+      "walking": {
+        "distance": 0.818345607,
+        "duration": 1016
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAA0HBPWQpuUGTEJhQuRvWGTkAxs5sVhU-gpUKijI9E6UKtwc4MtYoQlB-NlnjghqIifujPGcrSAkiDJmsasl31B7HM06AIgkZaW1HUu7qVV00w3QBvV9zyYSm31TQJ7O_fEhCytYCdThCd5wHnt4-aWPyRGhRDS4lpShl--Q9H7iehFZFDrUueYw"
+    ],
+    "lat": 42.3651139,
+    "lng": -71.0532861,
+    "name": "Locale",
+    "num_ratings": 303,
+    "place_id": "ChIJe5ikcIlw44kRNhYlB8KpA3E",
+    "price_level": 2,
+    "rating": 4.6,
+    "travel_info": {
+      "driving": {
+        "distance": 1.241499258,
+        "duration": 611
+      },
+      "transit": {
+        "distance": 1.235285548,
+        "duration": 1510
+      },
+      "walking": {
+        "distance": 1.235285548,
+        "duration": 1510
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAACwCVlZdgluN2Y97zs44TA6SfMNWc3AO9jMDc-gZzUequ7_W4xDsaOiCwY5rOzstGaRTMNF9P_vaPqijRpWgsgw3MJ-TJ9B2GzlkdgEjGDDPY0XnnYP7i1inR9vJFjAc-EhBt1V-59D2y5g1dfjeTyozsGhShy36pS8iXXwHB49e3g2bxClgkzg"
+    ],
+    "lat": 42.3648748,
+    "lng": -71.053094,
+    "name": "Rina's Pizzeria & Cafe",
+    "num_ratings": 286,
+    "place_id": "ChIJo9IacYlw44kRIhbw6HsebiE",
+    "price_level": 1,
+    "rating": 4.6,
+    "travel_info": {
+      "driving": {
+        "distance": 1.2334214350000001,
+        "duration": 607
+      },
+      "transit": {
+        "distance": 1.224722241,
+        "duration": 1488
+      },
+      "walking": {
+        "distance": 1.224722241,
+        "duration": 1488
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAA3y4ylR6JC60tXByLKVdsnlSnujr5O57nwcpGM74H8uVdyo2iiX8--QWZrD4-_tYNo-q7PCV6XeYT3LaI-0-9gNMyX_bGOznTOerFMBKDc7I3-e8_Hmd7Ihl835jELjHIEhCI8qu-J5wqfL_iKf2F0xQIGhROxqXBKNFlsxDE9JpJZijre-NGJg"
+    ],
+    "lat": 42.3636992,
+    "lng": -71.0548319,
+    "name": "Quattro",
+    "num_ratings": 633,
+    "place_id": "ChIJrXdV2Ihw44kRbTBB66LkiNg",
+    "price_level": 2,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 1.119089171,
+        "duration": 552
+      },
+      "transit": {
+        "distance": 1.110389977,
+        "duration": 1361
+      },
+      "walking": {
+        "distance": 1.110389977,
+        "duration": 1361
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAASCwj9l7-Qq8JAoYHOzIh4C6Iwx2mQK1H-zOJMKvYMucCCqyfqfaqU0kTZsplDaGNctjRKWOTdlO4CU4Zl1znymVe_u_gUKg_D7h7D81yBSpW2t8LMqVAWkuI_24zQ-dXEhAXM5XyWpa59MufR1hF6eAgGhRhbYCUN_wnmQv1vQbK4DUFYxemVw"
+    ],
+    "lat": 42.363367,
+    "lng": -71.055838,
+    "name": "Ernesto's Pizza",
+    "num_ratings": 855,
+    "place_id": "ChIJOW4E0iBx44kRGPwnBeo0a5U",
+    "price_level": 1,
+    "rating": 4.6,
+    "travel_info": {
+      "driving": {
+        "distance": 1.125302881,
+        "duration": 550
+      },
+      "transit": {
+        "distance": 1.1147395740000001,
+        "duration": 1373
+      },
+      "walking": {
+        "distance": 1.1147395740000001,
+        "duration": 1373
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAASnAJByrn2LnL7RSy9_ehfVKgVHYQZjmFkDe6onWs8TBDHQJypI8I5ybaBSwf2NOJWnw_OaN-WTfIbcRo1DqcyTc4VXarAuQmu37rNLqweedp9o7M1PYQ3EVO_nk31e-KEhDQoQlNFV-hMBg8SM6Uzi9-GhTNaXZwycCuYB7mXTCk-4uqfkEuKA"
+    ],
+    "lat": 42.372665,
+    "lng": -71.03527199999999,
+    "name": "Santarpio's Pizza",
+    "num_ratings": 2239,
+    "place_id": "ChIJ05TyhURw44kRxqoBZ3mJu-M",
+    "price_level": 1,
+    "rating": 4.5,
+    "travel_info": {
+      "driving": {
+        "distance": 4.160078845,
+        "duration": 812
+      },
+      "transit": {
+        "distance": 4.566455479,
+        "duration": 1365
+      },
+      "walking": {
+        "distance": 3.285188477,
+        "duration": 3381
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAABc1UNY5jVkcoh3aXqmur5ksQ5Jc_fZBvGSCXMG72TkZ8-PHHwgj0vhyNwsu1KydzHpi-0mxFJsUZmAV8t8z8ZwYGfQfeS97npkB7kylOkXU4ZAn0V5MSJxTI3TqX7YVTEhBB33Rk51kXjIFYGcQxTxecGhQitmI0FPdx8dWDxpdkwg8J4QeMKQ"
+    ],
+    "lat": 42.3645292,
+    "lng": -71.055635,
+    "name": "La Famiglia Giorgio's Restaurant",
+    "num_ratings": 1483,
+    "place_id": "ChIJv7k_M4lw44kRuVhaTg8i9UQ",
+    "price_level": 2,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 1.206081111,
+        "duration": 609
+      },
+      "transit": {
+        "distance": 1.196139175,
+        "duration": 1472
+      },
+      "walking": {
+        "distance": 1.196139175,
+        "duration": 1472
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAUcQymcdMMg-ZTZoDZEE4aCKDxv1G76Y2aNme4KCpwKWU8Qo1tfJcriwNDgCewucjAH-hTfwDp7zOTZBPCdpwBMRN3RLG6WrKx81-ZM6RUPGe6cZQdAJvgxhsNxLYe9cuEhBmeUOe1PS446tN0_6sKnEVGhT8g_64mUEz3mxTloOnRfLr2kWbEg"
+    ],
+    "lat": 42.3642823,
+    "lng": -71.055398,
+    "name": "Beneventos",
+    "num_ratings": 415,
+    "place_id": "ChIJIamBLYlw44kRu-h85G-IvQg",
+    "price_level": 2,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 1.189925465,
+        "duration": 598
+      },
+      "transit": {
+        "distance": 1.179362158,
+        "duration": 1452
+      },
+      "walking": {
+        "distance": 1.179362158,
+        "duration": 1452
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAJJoy3l43oQ7NjLKk3aa5gbnUnt_GHMOpDJOwY4_R3aF5KdcWEgxF0r4tSD_bXshERsSp6LDPzARQs4ihbDHHBtE-cLku-OlKPSZ_-1XnImnxpem72lvl_XSQPS-Jydj9EhBhtAHyMOjD0IsnA0XdYNn7GhRz_q2_9vt7u6cClvaYWhT7Qn-Jmw"
+    ],
+    "lat": 42.3673699,
+    "lng": -71.0533908,
+    "name": "Rocco's Cucina & Bar",
+    "num_ratings": 175,
+    "place_id": "ChIJu6XLsYtw44kRhV1wXhHwgo8",
+    "price_level": 2,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 1.3968420080000001,
+        "duration": 583
+      },
+      "transit": {
+        "distance": 1.388142814,
+        "duration": 1683
+      },
+      "walking": {
+        "distance": 1.388142814,
+        "duration": 1683
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAA2goPSquW1eT9rki6TN4CM61tPyAa3UvPrZrFC3fZv0dV-MpgE0sHHpUcGKinN5WKyXr_IDQwUVyKpaeTkUOYZmhjEc0EXDh1vuWz4rx16qjKU32k1u5pDP59b_spIJn9EhAWbfBLAf2qC_R-YJsR-IBYGhSmKt75uuX57EgsGz09WU6P8zPoSQ"
+    ],
+    "lat": 42.3534996,
+    "lng": -71.0568384,
+    "name": "Serafina",
+    "num_ratings": 460,
+    "place_id": "ChIJv9wmPIJw44kRH0raNmMM2H4",
+    "price_level": 2,
+    "rating": 4.3,
+    "travel_info": {
+      "driving": {
+        "distance": 0.767393185,
+        "duration": 442
+      },
+      "transit": {
+        "distance": 0.727625441,
+        "duration": 511
+      },
+      "walking": {
+        "distance": 0.6630028570000001,
+        "duration": 816
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAgPhYxijCnKdAqcKSqshGq7cSa_ZojoaUlmQWxypAmEaRQKiuCB-gVKPQkYMejktXOpTBHK2Aperd7_eoO7le4nBdHO7-iHy6LCVgoBFXRN16yTRkv9qD3XoqotLst10SEhDeyPhGGA_P6uJE5jDbx37EGhTQgR4MtvXOMRF1cXDJ0SqF3Ceopg"
+    ],
+    "lat": 42.3654261,
+    "lng": -71.0568787,
+    "name": "Regina Pizzeria",
+    "num_ratings": 3631,
+    "place_id": "ChIJb4wUsI5w44kRnERe7ywQaJA",
+    "price_level": 2,
+    "rating": 4.6,
+    "travel_info": {
+      "driving": {
+        "distance": 1.301150874,
+        "duration": 628
+      },
+      "transit": {
+        "distance": 1.279402889,
+        "duration": 1570
+      },
+      "walking": {
+        "distance": 1.279402889,
+        "duration": 1570
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAVgouNup-mkjH3nJNrPjpG9U3JcRmav6GVXm_ZL1UYAMOoOFFjvhOyZgIMDZBzKOrqtnSJXxt5Q-WPQxtB-hxRyyx-3fioo4A8q-9jQnWcrkMYDHjo_iHkPtkiN2VjtnBEhBx1Bv4tNrdKR3rq6Y6q-P4GhQjyu4-epx18EOouiYHzfbzIpZNlQ"
+    ],
+    "lat": 42.3670857,
+    "lng": -71.05806799999999,
+    "name": "Ducali Pizzeria & Bar",
+    "num_ratings": 307,
+    "place_id": "ChIJYxvVMYxw44kRMOtQN6S3b1Y",
+    "price_level": 2,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 1.423560961,
+        "duration": 680
+      },
+      "transit": {
+        "distance": 2.087185189,
+        "duration": 1616
+      },
+      "walking": {
+        "distance": 1.409890799,
+        "duration": 1729
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAZel8_3fZ5PuN7kgH2UBj0uXHYn1MFPNh-8W0TRAdIS2PEV99mBSSyqGC9_CiwcrUufBBDcU7E35g5_papjH1IirT6iOHgPxbg51UnCAPw50kLejLorz32iXMc3q-l8SoEhBnuc8kJv1S4w8NOVsmVRDIGhQQYEHR_5YQVZTxGb1Pv2FLXtKl5A"
+    ],
+    "lat": 42.3758196,
+    "lng": -71.03890969999999,
+    "name": "Pizza Shuttle",
+    "num_ratings": 109,
+    "place_id": "ChIJvRSnxFpw44kRkcvNSGzc-1k",
+    "price_level": 2,
+    "rating": 4.3,
+    "travel_info": {
+      "driving": {
+        "distance": 4.478220797,
+        "duration": 813
+      },
+      "transit": {
+        "distance": 4.79077041,
+        "duration": 1730
+      },
+      "walking": {
+        "distance": 3.57909696,
+        "duration": 3762
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAZ_fpIECY7grc2zEHXMVsXSXpkCBEujVxIsCEHbCmPJhTqwboHiHGmL2h8sz1tWqWjmTj7JiwLBe1PfFA-HlwsbArTp836Uy98KCSwns5QB7Jz-zyOA8HgHo8WSU7Z0YWEhBzJ3re88LZzFGbPQSuJQIlGhTHqULZA7l9vj2alkR0QzdrK0KZ4g"
+    ],
+    "lat": 42.365925,
+    "lng": -71.01518329999999,
+    "name": "Wolfgang Puck Express",
+    "num_ratings": 106,
+    "place_id": "ChIJHcwSJD1w44kRqa7gG5JAz64",
+    "price_level": 3,
+    "rating": 3,
+    "travel_info": {
+      "driving": {
+        "distance": 3.653040109,
+        "duration": 611
+      },
+      "transit": {
+        "distance": 5.075979699,
+        "duration": 1322
+      },
+      "walking": {
+        "distance": 3.499561472,
+        "duration": 3721
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAa456dNURA66LONilJGmkY98gtCHK6BLvjDtamRStAb_HN-RZpr_126pjFJiMV7kvxzRzdflhXzTWgv5E8x-6KTIhyviAbbnfR2n7IPBFgNx_NuAkGOg2bP08uSFHRYVsEhBGxmAcIfNC1vCK-p10kIc0GhSf2WYcrHEOIpzHqRnGVTK0XQgfgg"
+    ],
+    "lat": 42.376138,
+    "lng": -71.035773,
+    "name": "Kelley Square Pub",
+    "num_ratings": 515,
+    "place_id": "ChIJkXA8bkVw44kRDg_40pnFqXU",
+    "price_level": 1,
+    "rating": 4.5,
+    "travel_info": {
+      "driving": {
+        "distance": 4.428511117,
+        "duration": 845
+      },
+      "transit": {
+        "distance": 4.556513543,
+        "duration": 1450
+      },
+      "walking": {
+        "distance": 3.581582444,
+        "duration": 3744
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAA9-lUvkbUY5W6U_x-AQieW78KuT05TRZhnhIIz4CKo4KaTEy5NTlkrbTAf5TQYoM3Krkgrf2KGnb8cD-PCufymJzGp9v5gB9w0AvWbBiQzqD-6d58UENhLqRTcvYJQZqwEhBnA7T67HPLTrgJvDHogqDcGhQiBTyUSJEY-YtSkYweXeocJ0BN_g"
+    ],
+    "lat": 42.3548749,
+    "lng": -71.0631131,
+    "name": "Sal's Pizza",
+    "num_ratings": 322,
+    "place_id": "ChIJjZFlGJ1w44kR7o8wtLZK2pg",
+    "price_level": 1,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 1.3334621660000001,
+        "duration": 718
+      },
+      "transit": {
+        "distance": 1.19924603,
+        "duration": 839
+      },
+      "walking": {
+        "distance": 1.088020621,
+        "duration": 1331
+      }
+    }
+  }
+]

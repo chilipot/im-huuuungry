@@ -1,8 +1,7 @@
 import json
 
 from models import Restaurant
-from restaurant_service import add_scores
-from utils import fix_photo_refs_rest_dict
+from controllers.restaurant_service import add_scores
 
 if __name__ == "__main__":
     with open("asian_data.json", "r") as f:

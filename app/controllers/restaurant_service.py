@@ -1,8 +1,8 @@
 import os
 import time
 
-from models import Restaurant, ScoredRestaurant
-from score_service import Scorer
+from models.models import Restaurant, ScoredRestaurant
+from controllers.score_service import Scorer
 from utils import make_request
 from utils import meters_to_miles
 
@@ -12,22 +12,7 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 RESTAURANT_TYPE = "restaurant"
 
 
-def get_scored_restaurants(wt_loc, wt_rating, wt_price, **kwargs):
-    """
-    Calculates the scores for all the restaurants. The wrapper for all the backend functionality.
-
-    :param wt_loc: The importance of the location of the restaurant, float from 0 to 1
-    :param wt_rating: The importance of the rating of the restaurant, float from 0 to 1
-    :param wt_price: The importance of the price of the restaurant, float from 0 to 1
-    :param kwargs: All args to get_restaurants
-    :return:
-    """
-    restaurants = get_restaurants(**kwargs)
-    scored_restaurants = add_scores(restaurants, wt_loc, wt_rating, wt_price)
-    return scored_restaurants
-
-
-def get_restaurants(coords, radius=None, maxprice=2, keyword=None, count=20):
+def get_restaurants(coords, radius=None, maxprice=3, keyword=None, count=60):
     """
     Uses Google's API to get a list of nearby restaurants
 
@@ -111,14 +96,12 @@ def add_travel_info(raw_rests, coords):
     return raw_rests
 
 
-def add_scores(restaurants, wt_loc, wt_rating, wt_price):
+def scored_restaurant_ids(restaurants, wt_loc, wt_rating, wt_price):
     scorer = Scorer(wt_loc, wt_rating, wt_price)
     scores = scorer.score_many(restaurants)
-    return [ScoredRestaurant(score, **rest.__dict__) for score, rest in zip(scores, restaurants)]
+    zip_list = [(score, rest.place_id) for score, rest in zip(scores, restaurants)]
+    return [place_id for score, place_id in sorted(zip_list, key=lambda tup: tup[0], reverse=True)]
 
 
-if __name__ == "__main__":
-    my_coords = "42.3511472", "-71.0476371"
-    rests = get_restaurants(my_coords)
-    import json
-    print(json.dumps([r.__dict__ for r in rests], indent=2, sort_keys=True))
+def restaurants_by_id(restaurants):
+    return {r.place_id: r for r in restaurants}

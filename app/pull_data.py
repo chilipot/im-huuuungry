@@ -1,4 +1,4 @@
-import restaurant_service
+from controllers import restaurant_service
 import json
 
 

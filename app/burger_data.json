@@ -1,0 +1,1042 @@
+[
+  {
+    "_photo_refs": [
+      "CmRaAAAAGGZPiW_HkZ65UIrbK5LPr46YqBT4OisH6mW434x5uoZegow9SNKw9A_UJVA-JDKYEf2rwy-9r7Owcv3PqfrI0AWHCOL8elKW6995HXrk5bs-Gz2op9w6DqXv08-8JM9qEhC51CbVox8A9LsmRooa-LVeGhTJyJt_wzDxYkNYVE72EusxbHtBHA"
+    ],
+    "lat": 42.3521047,
+    "lng": -71.0466272,
+    "name": "Shake Shack",
+    "num_ratings": 1533,
+    "place_id": "ChIJ75nMqX9w44kR-demFCB7M6A",
+    "price_level": 2,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 0.105011699,
+        "duration": 77
+      },
+      "transit": {
+        "distance": 0.105011699,
+        "duration": 124
+      },
+      "walking": {
+        "distance": 0.105011699,
+        "duration": 124
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAASnGmmthDi9m1djpJD3vdbPo31He-524LNemaEWlXGJrGpVi_1uBdsXUnt5pV6Uac_fkc84V9JeB2hbXG2NSuD4BR7kylS21oxNHTf4mRyEUhUTaW48yYubreCEBrIpq-EhDWJ-prOVxvCM3za3ARBtiiGhTJpOfuJT7EgTUatpye5PEty-YI5w"
+    ],
+    "lat": 42.3688386,
+    "lng": -71.0393163,
+    "name": "Burger King",
+    "num_ratings": 160,
+    "place_id": "ChIJRZNTaV1w44kRtifr21coUnQ",
+    "price_level": 1,
+    "rating": 4,
+    "travel_info": {
+      "driving": {
+        "distance": 4.7590804890000005,
+        "duration": 925
+      },
+      "transit": {
+        "distance": 1.798247674,
+        "duration": 1166
+      },
+      "walking": {
+        "distance": 3.185147746,
+        "duration": 3275
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAIPZYSRQLF0iHE0InN34lL2xREeMkLZCjchwiOn-1XD0rBQ0vGw5VfE4QMUrmFfyXZuZEzmFiRCjt-ymRpnFBlXl03858-GdxMwe4BZq7tBIY0Kqxf9DTfm3kEV3ZGpDqEhAUFAC6EiwohHqMHcnFL6fdGhQ9zL8jpv9CBbR3YBMo43--ZjCcMg"
+    ],
+    "lat": 42.3629462,
+    "lng": -71.0551648,
+    "name": "Cobblestone Cafe",
+    "num_ratings": 158,
+    "place_id": "ChIJvR2Gzohw44kRpDeIXhI8DPk",
+    "price_level": 1,
+    "rating": 4.1,
+    "travel_info": {
+      "driving": {
+        "distance": 1.086156508,
+        "duration": 531
+      },
+      "transit": {
+        "distance": 1.078078685,
+        "duration": 1323
+      },
+      "walking": {
+        "distance": 1.078078685,
+        "duration": 1323
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAchnlgqcrNvI5eQNaJ6Tvy8wNeGoUVK8HjGmeQ-AexrNc3oWMPrrYWDQFQwF_8J11nu-MStIUC9g-3wgr0pyaFbN03l9qnAo_6VaBrAiGLdkZZ5r9OxA9zWcEdKo3D-l6EhDGxw-M9qIyqg5PhL7jV9cOGhSDIzxCjqm9XkTvcRwqMHk5JY9hGg"
+    ],
+    "lat": 42.3543982,
+    "lng": -71.0586503,
+    "name": "Five Guys",
+    "num_ratings": 1631,
+    "place_id": "ChIJbTWx-YJw44kR0FCQuzjIMIc",
+    "price_level": 2,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 0.999164568,
+        "duration": 630
+      },
+      "transit": {
+        "distance": 0.837608108,
+        "duration": 644
+      },
+      "walking": {
+        "distance": 0.754965765,
+        "duration": 929
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAzCG9WYrVrie3Zr0hZ7haatxuBOGuCiZ1ZXtAwQCNMBK-CuBjiB-hELmkQJKPuP6AN9G8KK_e1T-Yw1aEVOUOrlgJzOisPhnv58yYvrRYRZ77WqH4SQTnCTEEitjgIVLIEhDaQjslEJT896oKkgoHsd4DGhRpc975Sy2n7hzUWF-xLoCCh6wNXA"
+    ],
+    "lat": 42.3671963,
+    "lng": -71.0163465,
+    "name": "Wahlburgers",
+    "num_ratings": 652,
+    "place_id": "ChIJWzHq6Txw44kRYpVLxUvDpUY",
+    "price_level": 2,
+    "rating": 3.4,
+    "travel_info": {
+      "driving": {
+        "distance": 3.702749789,
+        "duration": 650
+      },
+      "transit": {
+        "distance": 5.035590584,
+        "duration": 1280
+      },
+      "walking": {
+        "distance": 3.412569532,
+        "duration": 3611
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAHYFiHApJ3Ppleib67pUE4IegWuBUdsozWFIk_hRYBm6oSFR7i6W_GUtFT5PDYFHAw81Lqnc0VYE4TQgTB-ayhaqy8hvXQzmcC_VrTd9RChaFLUyhYVQHP064Y7SrwJyzEhDyDlnpBigqnr86jzPj3vzzGhREzm6Gk35FEawS6wKB9vBrDCUHbQ"
+    ],
+    "lat": 42.3569004,
+    "lng": -71.05897759999999,
+    "name": "McDonald's",
+    "num_ratings": 974,
+    "place_id": "ChIJe645PYNw44kRrNMypLAQ6lc",
+    "price_level": 1,
+    "rating": 3.7,
+    "travel_info": {
+      "driving": {
+        "distance": 0.955668598,
+        "duration": 583
+      },
+      "transit": {
+        "distance": 1.055709329,
+        "duration": 915
+      },
+      "walking": {
+        "distance": 0.84506456,
+        "duration": 1043
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAGSCHq161jqOrLP7wZW3KMHbHNUTInkk9uW18XAE5Hti48k_rsYJhYUAYJFit6LGM_SjlzF2npJvPQKS5ZLDS5WQTofDK2hwG26UPMDcMf9gTWcovQp--szK-MGJhkc9DEhDl1GvvQeFdKGrjCMX3R4EaGhT5TKHOw5WQbMkp-t-K9Noww_V3Ow"
+    ],
+    "lat": 42.3556834,
+    "lng": -71.0626996,
+    "name": "MOOYAH Burgers, Fries & Shakes",
+    "num_ratings": 732,
+    "place_id": "ChIJUWI_2Zxw44kRZc0rMgOGXAk",
+    "price_level": 2,
+    "rating": 4.5,
+    "travel_info": {
+      "driving": {
+        "distance": 1.271325066,
+        "duration": 694
+      },
+      "transit": {
+        "distance": 1.140215785,
+        "duration": 785
+      },
+      "walking": {
+        "distance": 1.025883521,
+        "duration": 1257
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAczzayuDuNgC_t9Ta6waknCN_BKcyYzVFTJLIEPOI4mUxJrhT0vclCAQH1RFECrDlB7B0BvIFtiiqCYe0Vt_oRF7RUBeYkqTsNeUEw9kjZhW27913fRB03PGvTKfBL3weEhCuVrWjWlY3SuWhVXmf1hbGGhRIBtojAyJHc0-_wTa4qJtzR1vB1g"
+    ],
+    "lat": 42.3660144,
+    "lng": -71.06309209999999,
+    "name": "Tasty Burger",
+    "num_ratings": 587,
+    "place_id": "ChIJK54cupFw44kRD5pbWmVOzIA",
+    "price_level": 2,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 2.1996533400000002,
+        "duration": 579
+      },
+      "transit": {
+        "distance": 1.979688006,
+        "duration": 1466
+      },
+      "walking": {
+        "distance": 1.488183545,
+        "duration": 1861
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAy2YZKrQsU-864DXBICuWeq0yeDXhvQIFODQbblJLc4uPTlAWgRJ8pAlb_vY6V9UyRgleQoCLsyWiACjW1gNnsG8Z3eTt89JQ7hQsJwEK5pkDKI0ol7u44tAMsW2RQ9ajEhC39NWORaqWV6ciaeXqUsd1GhSkAMUIr4WBmZGyn32KQgZO_PTDBQ"
+    ],
+    "lat": 42.34727729999999,
+    "lng": -71.0755983,
+    "name": "Tasty Burger",
+    "num_ratings": 1211,
+    "place_id": "ChIJKWxOPQ1644kRsYVD6ggoJ54",
+    "price_level": 1,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 2.538921906,
+        "duration": 981
+      },
+      "transit": {
+        "distance": 1.900152518,
+        "duration": 1119
+      },
+      "walking": {
+        "distance": 1.8342871920000001,
+        "duration": 2263
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAGk76gGNusT67quwpccVJd3HoBbMYb53nMDHLz4_u4Dk9pkzddPB2NMJuL2KPclXdoIwfcr9t-HvivdGHJkeMMqgpUcr9fL5aCEUPiSAHv71iRC7JOCpm_nQGlGYqNgsVEhCZrUiLyNO5d_k2QWVp5fgIGhRw-2faEpIPes5tFy_KMFuA0rnSFQ"
+    ],
+    "lat": 42.3496451,
+    "lng": -71.0816425,
+    "name": "Shake Shack",
+    "num_ratings": 2391,
+    "place_id": "ChIJk8w38A5644kRkJggBF-ITts",
+    "price_level": 2,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 3.451094534,
+        "duration": 841
+      },
+      "transit": {
+        "distance": 2.3444327830000002,
+        "duration": 1880
+      },
+      "walking": {
+        "distance": 1.984037603,
+        "duration": 2432
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAA9bStzaEzJAwjMXt_WaWRaSdYZ2hTrHYOSJYvdWe2NkgGGudtDzNWtNPRGldUe-Qb3Xr2J88xULvogJ1kbNFJR7LJj4d-2SDrNdUoUNMk4u2n9eOqKIzVFpgTyMVFmclAEhAq49cmicVgtUu-JUguh4QNGhR955gKLmEby6vCiZ29vRPky1V5pQ"
+    ],
+    "lat": 42.32519449999999,
+    "lng": -71.0618016,
+    "name": "Wahlburgers",
+    "num_ratings": 593,
+    "place_id": "ChIJuVTqTEV644kRjkbq_iZ2lkg",
+    "price_level": 2,
+    "rating": 4.1,
+    "travel_info": {
+      "driving": {
+        "distance": 3.18141952,
+        "duration": 629
+      },
+      "transit": {
+        "distance": 2.894346118,
+        "duration": 1513
+      },
+      "walking": {
+        "distance": 2.1443513210000003,
+        "duration": 2618
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAgS_-41Jr-GIuKGlCuQkchTdTPNU2k9ma8kdKnt8XjJYgYv5x1_lC8vUAv7ygXnOXEfslW9VQioXmsGVo3EorA-7cGU6Jc6ByQq1kD6aDiKx0G4VeTGAPUXakbnyYLsOzEhDbk4cK_VuZc0c9QOOUZGu5GhTGiL4uM1qe4N2cqW7ERwYdM4v-Ug"
+    ],
+    "lat": 42.3423369,
+    "lng": -71.08612269999999,
+    "name": "Five Guys",
+    "num_ratings": 766,
+    "place_id": "ChIJZUVq5Rl644kRBcXolcTvKrs",
+    "price_level": 2,
+    "rating": 4.3,
+    "travel_info": {
+      "driving": {
+        "distance": 3.643719544,
+        "duration": 957
+      },
+      "transit": {
+        "distance": 2.824131195,
+        "duration": 1536
+      },
+      "walking": {
+        "distance": 2.418997303,
+        "duration": 3013
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAeoBH33is51U1B1bFH1s6nr-GeVN_taCxYX2CE_iFnHhdvhrQahcc2LPLpnqCUcg4wjMakMfLG6VbHHtmzjGgtjxT8XPNxmUMFjxSuorAB-UHPpJK2Q8n0ngOVsxnnJZfEhDuTQP3M2ZPvzGGwJBFWjdHGhTUn7tobqVZRnM7pkUwLSUJhaz3pg"
+    ],
+    "lat": 42.3468102,
+    "lng": -71.08847329999999,
+    "name": "Boston Burger Co-Boylston",
+    "num_ratings": 1931,
+    "place_id": "ChIJwRxfIBt644kRuDR56soOZ1o",
+    "price_level": 2,
+    "rating": 4.5,
+    "travel_info": {
+      "driving": {
+        "distance": 4.211652638,
+        "duration": 751
+      },
+      "transit": {
+        "distance": 2.743974336,
+        "duration": 1855
+      },
+      "walking": {
+        "distance": 2.321442056,
+        "duration": 2856
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRZAAAAN1yZTyNcboxXuMBMz8TdJbKzn9pxmoyqTI5xVHxzhOfOfi8fKjQrwtughhwwCtfhZO2u4L0vNAJcYvbo8AoyHAtDF31P3lAVI7Zct2RbcA_0R89IOjRt9hmx5JcgR4bBEhAI_6HMim2gl4scyzxAqFT_GhTEe8L4a2gp-kSn27fraZ5X0KoIeg"
+    ],
+    "lat": 42.3447623,
+    "lng": -71.0983754,
+    "name": "Tasty Burger",
+    "num_ratings": 2459,
+    "place_id": "ChIJG_7Z4_V544kRalvwsGSoZaI",
+    "price_level": 1,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 4.375073211,
+        "duration": 834
+      },
+      "transit": {
+        "distance": 3.317499769,
+        "duration": 1538
+      },
+      "walking": {
+        "distance": 2.967046525,
+        "duration": 3606
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAOK-inBKqJ9mYgbsIe_29szHB5j0167l5kWSem8gGPXDzZ-FcGnm1jiHGFw963m-eRQ7-aUjtXJfdCNLyLztqxz9pvb99iIkVDHnHhM8eRoxRld16tZHQxiC3M8f6_SMqEhBng486wot02ieniBOPwDtwGhTjyeiVhrFyYdaOpXuxgkew89CuOA"
+    ],
+    "lat": 42.3708557,
+    "lng": -71.1136757,
+    "name": "Boston Burger Company",
+    "num_ratings": 1058,
+    "place_id": "ChIJH5rYNlt344kR0tyl1wfywhQ",
+    "price_level": 2,
+    "rating": 4.3,
+    "travel_info": {
+      "driving": {
+        "distance": 5.681195053,
+        "duration": 1069
+      },
+      "transit": {
+        "distance": 4.795120007,
+        "duration": 2269
+      },
+      "walking": {
+        "distance": 4.037668758,
+        "duration": 5035
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAVCiKeXEzRPAT4kISJhqC6s5FXWVoClQDc5Rkhiga1ZKqD0Y4W4nFTdlj0ZhDeWmetgaX2M_Op9-bm4rYJdwVhpbRORLRSGdALRTubyEXzKXOmQj72mkLQKeRFeotqo2kEhBuEIdyEH51eCpNEjNZihsQGhRnJr8Vrn9NcNulFJT5FsKxGxSlCw"
+    ],
+    "lat": 42.3724694,
+    "lng": -71.1161278,
+    "name": "Mr. Bartley's Burger Cottage",
+    "num_ratings": 829,
+    "place_id": "ChIJGXn4REN344kRoIRbQpxqE1A",
+    "price_level": 2,
+    "rating": 4.3,
+    "travel_info": {
+      "driving": {
+        "distance": 5.848343852,
+        "duration": 1120
+      },
+      "transit": {
+        "distance": 4.627971208,
+        "duration": 2082
+      },
+      "walking": {
+        "distance": 4.178719975,
+        "duration": 5223
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAA2aPV-JegfGEcQ5AyYuKf38Nnzb5BQ_Una_b3Rnrdpw9CJVjRUs2Oft4jDwz5HPP408gkl4tcQNIroEmoByLce0FuaK0KQWsb1iQecoxLSLRy-mePiEw2ABHX2OGARw_OEhBl88bJ8ZzsCX9o0wFPAhrxGhTnoMVslBQK1_7oWz8Bi2KxKjxO3A"
+    ],
+    "lat": 42.3830196,
+    "lng": -71.1124516,
+    "name": "R.F. O'Sullivan & Son",
+    "num_ratings": 721,
+    "place_id": "ChIJcXK8ATl344kR_hu1Trafu-c",
+    "price_level": 1,
+    "rating": 4.5,
+    "travel_info": {
+      "driving": {
+        "distance": 6.003686602,
+        "duration": 1224
+      },
+      "transit": {
+        "distance": 5.277303903,
+        "duration": 2775
+      },
+      "walking": {
+        "distance": 4.441559908,
+        "duration": 5479
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAy3aeEsyYSnJtYnVRMFrZ_fPInXgfnXjKZvEtcP2PQQuxa21tLivfdRei9x9Hgn_3mwivUpp3-mxxZSJdyxkSHZOssGFf76zHGSE-ak504XI_yRmBL-YrcW6yb4BdFsScEhDhZ3yMwCiMvvvsTwJVozEOGhTcNE84Y72J-IU6qSMOVmIU5yuICg"
+    ],
+    "lat": 42.3969932,
+    "lng": -71.12253559999999,
+    "name": "Boston Burger Co-Davis Sq",
+    "num_ratings": 1112,
+    "place_id": "ChIJbZNKNh9344kRLj0lRSbIIP4",
+    "price_level": 2,
+    "rating": 4.5,
+    "travel_info": {
+      "driving": {
+        "distance": 7.7907495980000006,
+        "duration": 1161
+      },
+      "transit": {
+        "distance": 6.252235002,
+        "duration": 3180
+      },
+      "walking": {
+        "distance": 5.437617621,
+        "duration": 6758
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAanQNkw1WnVrv1DIKnOaYPU5M2OA6dz0qn2W34xIe2e0veYnDeZ7B_kt5yarXEG5bFhIcMDEunU3xCgSN-XrFqTaa5SUsNd58ykT9qo-eyu5zFik_3Wn5h6QkOupbpg-yEhAVrZt2sRB5MkSVkmOnyWfiGhTIo-ckLVRVoKPDWZxDJYPd6Eq8tQ"
+    ],
+    "lat": 42.345106,
+    "lng": -71.1004118,
+    "name": "Wahlburgers",
+    "num_ratings": 2962,
+    "place_id": "ChIJ__r0K_R544kRnN2P42qNp6E",
+    "price_level": 2,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 4.348975629,
+        "duration": 887
+      },
+      "transit": {
+        "distance": 3.290159445,
+        "duration": 1509
+      },
+      "walking": {
+        "distance": 3.05093161,
+        "duration": 3705
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAN48wqIjOFxfJ2y97_LzftpyRW7Rc4cRkbegt_UV9iXkx-rV_DwtB_eY_zDVTi0U3Jg0e1KC3ILHj1psVqcs9FpUoqh5FheBKo421lA2RPr98jmjenTDK3HDJVR44T9jKEhB0LxxwdT8MbgJn2z3Q0qTTGhTotTHOECIzuOvAQg8unKoNoeCXlQ"
+    ],
+    "lat": 42.40364140000001,
+    "lng": -71.0809759,
+    "name": "Five Guys",
+    "num_ratings": 447,
+    "place_id": "ChIJdc4itSRx44kRMVJ8WsGO_IQ",
+    "price_level": 2,
+    "rating": 4.3,
+    "travel_info": {
+      "driving": {
+        "distance": 4.55464943,
+        "duration": 713
+      },
+      "transit": {
+        "distance": 5.566862789,
+        "duration": 3606
+      },
+      "walking": {
+        "distance": 4.69135105,
+        "duration": 5771
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAXD4TVA6RVSKi6jltfbTl7x7ILybK-XYq28USaUPVBWSvktlL2BFieTU3_GUWr2mMWyfbqOLdhkhLDyNo8Uh3Shx1--zzi01yOMq80GnODLZKYzSb_a_o-fOM28Lt_-qUEhDq2eD5vQgYuPW2VxwfMPRpGhRfA-Ni55MCuH2A2YioVGRAk3YPcw"
+    ],
+    "lat": 42.3517081,
+    "lng": -71.0556466,
+    "name": "McDonald's",
+    "num_ratings": 272,
+    "place_id": "ChIJe645PYNw44kRoRr8XiXajtA",
+    "price_level": 1,
+    "rating": 2.9,
+    "travel_info": {
+      "driving": {
+        "distance": 0.982387551,
+        "duration": 581
+      },
+      "transit": {
+        "distance": 0.727625441,
+        "duration": 500
+      },
+      "walking": {
+        "distance": 0.603972612,
+        "duration": 717
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAy39SYP4Q78JHrLdj03h1dKLy3Eek_DBVMJahxSzlsa7EyB9BMWLj3fq6nDOVS2dwlqixd6oKfZyFuofmkNTNMvjXbKRrmOaLT2v-BMXOHUu21UZBdwCfrim8DIu-0IY2EhAi_ENlsH3WViA48VIkEIbEGhRX_FeIZuzQEImgrxdypVKapft_YQ"
+    ],
+    "lat": 42.3562616,
+    "lng": -71.061881,
+    "name": "Burger King",
+    "num_ratings": 670,
+    "place_id": "ChIJn_7My5xw44kR5jdTAZyNyTU",
+    "price_level": 1,
+    "rating": 3.7,
+    "travel_info": {
+      "driving": {
+        "distance": 1.214158934,
+        "duration": 671
+      },
+      "transit": {
+        "distance": 1.109147235,
+        "duration": 754
+      },
+      "walking": {
+        "distance": 0.991708116,
+        "duration": 1222
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAbIszZhvnX22sIYqTdMfIyG8BMMSNRJp_5ayzll0yZZoBZfuc4jZFL3w4vsmsN36Ba3hKKRRpIU96ZVdDiv3pTCtryrCYddmzMaBgZyU9G-KFBBh3KdesxdzQQna44XFfEhBBIR1bKRRI3_SZpMASxv4oGhQ8QeVzmWpKyXO69RIjpZ4Cim17yA"
+    ],
+    "lat": 42.3511111,
+    "lng": -71.0608333,
+    "name": "Shojo",
+    "num_ratings": 751,
+    "place_id": "ChIJRV40Onh644kRFHLE15lzefw",
+    "price_level": 2,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 1.1035548960000001,
+        "duration": 612
+      },
+      "transit": {
+        "distance": 0.968717389,
+        "duration": 796
+      },
+      "walking": {
+        "distance": 0.886075046,
+        "duration": 1081
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAzCFiACVzGK2HzGGpdyM3WTZ-YDtc7aHqAgG8Z2FSst1xhBy7Izdjxhncw6bps-Qc6i05GiFBsHVyPyZ0Cn_LkW506fvO50KFNPd_lsYSIfRb7VPmZnW-oLsCH-TcZgmhEhCEHJc4ndOIsjfeBKDSup6sGhRLkaoPlK9i7arbb6n0zgFCv2oQxQ"
+    ],
+    "lat": 42.3513292,
+    "lng": -71.0653274,
+    "name": "Rock Bottom Restaurant & Brewery",
+    "num_ratings": 464,
+    "place_id": "ChIJIegW9nZ644kRMSI43hrbxjE",
+    "price_level": 2,
+    "rating": 3.8,
+    "travel_info": {
+      "driving": {
+        "distance": 1.290587567,
+        "duration": 710
+      },
+      "transit": {
+        "distance": 1.506203304,
+        "duration": 1187
+      },
+      "walking": {
+        "distance": 1.142079898,
+        "duration": 1397
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAAFD8pdwGTEsFETw2j09yA1LADkEQtoEfTuxR6316L1H4cnZQdVMb2O2LckrB5G8jjgDegCbFE0xjgLFkfy9uASD56rw5T1-k-W4L40QSep0Dz0-H8n2T2zmA2nZdyojhEhDLrb3sM-0GEQNfvVzrmLgWGhRwtOKiYauwdb-xMj0yJKLetazCTw"
+    ],
+    "lat": 42.3392229,
+    "lng": -71.0509402,
+    "name": "Burger King",
+    "num_ratings": 615,
+    "place_id": "ChIJEcySYGJ644kRbWLfuitf5oE",
+    "price_level": 1,
+    "rating": 3.6,
+    "travel_info": {
+      "driving": {
+        "distance": 1.419211364,
+        "duration": 560
+      },
+      "transit": {
+        "distance": 1.368880313,
+        "duration": 1216
+      },
+      "walking": {
+        "distance": 1.083671024,
+        "duration": 1298
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAWzbNQupWOrTbg-89y1bhTRdHUR7OrOEsg-YH7DYzBt6C3LlnRZBoDzVUKCnRiDeWc8QSwm4tgHiS71W7KC3j0A6u2Qj6mr0UefVCAA_81rB2N_SlnSJfH1ysoAn4NSznEhBxc-cR_K1CwG1rmlH113CNGhR7Deyl-LyzK2hQhHKZ1b1echmdAQ"
+    ],
+    "lat": 42.33631500000001,
+    "lng": -71.047597,
+    "name": "Lincoln Tavern & Restaurant",
+    "num_ratings": 1071,
+    "place_id": "ChIJ6UDUh4l644kR9-SSfd-2yIk",
+    "price_level": 2,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 1.42293959,
+        "duration": 474
+      },
+      "transit": {
+        "distance": 2.036854138,
+        "duration": 1560
+      },
+      "walking": {
+        "distance": 1.33594765,
+        "duration": 1638
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAfoOXe6T8G7R7U12GkjPyGmeSQ774JNVqEsIPh5gBhKlujidYHggds_1G3trQm8WumWoJnr0lnghoRRL8viGjlPp2JtDA1CRww2ymLNJKSMrI5InLBI6p8WXRIRaU-hVEEhAqrjNw2CBz4ddbtMH2lFcxGhSQdIAiRKxf-X7bBajj-_pdp6m85Q"
+    ],
+    "lat": 42.352255,
+    "lng": -71.0682214,
+    "name": "Bristol Restaurant and Bar",
+    "num_ratings": 242,
+    "place_id": "ChIJ39a323V644kRrVwAqkPHK2U",
+    "price_level": 4,
+    "rating": 4.5,
+    "travel_info": {
+      "driving": {
+        "distance": 3.116796936,
+        "duration": 719
+      },
+      "transit": {
+        "distance": 1.529194031,
+        "duration": 1226
+      },
+      "walking": {
+        "distance": 1.219129902,
+        "duration": 1495
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAGcfHRvqYYMaBuu-O70qSqngSYnIi37v9OZtXPjfzJ1mwvgxUzMrz5SKpc6acG6PaOo_h3mkl6lKW4dOwjmd3U-WwQPX1uGwD3r5KXO7JPSdgzm_hHqAu5jVTuKcT48jZEhDkuovKcpjzui2UTX1DKvU7GhRwUad7ZBXr91LBH5sMg9lV1068WA"
+    ],
+    "lat": 42.341279,
+    "lng": -71.07014099999999,
+    "name": "The Gallows",
+    "num_ratings": 795,
+    "place_id": "ChIJzTdeZ2x644kRZ40D767Tr74",
+    "price_level": 2,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 1.993358168,
+        "duration": 701
+      },
+      "transit": {
+        "distance": 2.035611396,
+        "duration": 1410
+      },
+      "walking": {
+        "distance": 1.666517022,
+        "duration": 2073
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAiDmYsLGQhTeCMXOdHvmXkUqGLu1T7r-YvOv7T0QKMO8BTD0RwB19G-__jeqC6VNDUbovxG0D2_GUAr_d6bsc-fpQ63Zn8dHuOOhIN0tW-pXa5hIf0VVydYhX1J_6jR8sEhC5uiDwtEQMrVWvFUgee1FoGhRe6g_mNxA5nRVTIMlqYoi3oRQNaw"
+    ],
+    "lat": 42.394077,
+    "lng": -71.0424029,
+    "name": "Five Guys",
+    "num_ratings": 329,
+    "place_id": "ChIJtVXiiK9x44kR8umPq5zT5v8",
+    "price_level": 2,
+    "rating": 4.1,
+    "travel_info": {
+      "driving": {
+        "distance": 4.681409114,
+        "duration": 773
+      },
+      "transit": {
+        "distance": 6.7474676890000005,
+        "duration": 1823
+      },
+      "walking": {
+        "distance": 5.273575677,
+        "duration": 6381
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAPwiA61rznOcTBBAjnfxyKbx_BdESYdSoU6_mGNvhPYwyZlwh-_fdEtR6XslZyPnKz5q3K-jp0TVumVM5vBEaQD-8FjnBeFZe6hgZtT3Y5VbUWQYAasGaixIjelyw68siEhCgiN-YN0Buddishxy1vdbHGhRiprZZgBlkOXYpXJ0AiaGM_YIexA"
+    ],
+    "lat": 42.349509,
+    "lng": -71.09511499999999,
+    "name": "UBURGER",
+    "num_ratings": 370,
+    "place_id": "ChIJOdvhzQJ644kRHSgsq4hXd38",
+    "price_level": 1,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 3.9102877030000003,
+        "duration": 696
+      },
+      "transit": {
+        "distance": 3.083242902,
+        "duration": 1972
+      },
+      "walking": {
+        "distance": 2.738381997,
+        "duration": 3334
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAaCZAqQooTIdpiThMXDknitHyhPhX_qo1_ORNLT7wtkGKEAFnzlQ8DVLHA0fN2EW21rU3hdN3hpomQXZImwY0OQ8UiqVaeM9ct_1Hmyn7tB8X3vnFZL0rsZy5HNLAcQ_2EhCJsoN-DU9mvmB4DYAkrwTuGhQf3ONXr-qv9XPeDaOZh8EjCjgcSQ"
+    ],
+    "lat": 42.3659526,
+    "lng": -71.104964,
+    "name": "Mainely Burgers",
+    "num_ratings": 572,
+    "place_id": "ChIJoRFIOVF344kRg0LXIu4LmEI",
+    "price_level": 1,
+    "rating": 4.3,
+    "travel_info": {
+      "driving": {
+        "distance": 4.825567186,
+        "duration": 1118
+      },
+      "transit": {
+        "distance": 3.444880824,
+        "duration": 1261
+      },
+      "walking": {
+        "distance": 3.469735664,
+        "duration": 4359
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAkyLbyJlSNeuK-wLKl8jkk17kVlFazBeyjV4E5lDlXwhyq1JI4DB6qxU04SMCwNtd7Asvs9hwGdmVgPASlQSApyxMLh9YgtQwPWmjzphLnVA1XDE3ErN4kJQILD_QWgtUEhC7jHnx_hODdOo0tSEJOpPGGhSZ7qAUoMDsaV-7vK3X2nt4oNIPDQ"
+    ],
+    "lat": 42.3725934,
+    "lng": -71.11991789999999,
+    "name": "Tasty Burger",
+    "num_ratings": 1272,
+    "place_id": "ChIJRV4RtEJ344kRPniAgxB1mLo",
+    "price_level": 1,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 6.544279372,
+        "duration": 1006
+      },
+      "transit": {
+        "distance": 4.550299833,
+        "duration": 1985
+      },
+      "walking": {
+        "distance": 4.38687926,
+        "duration": 5470
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAfFLURlmDIOy6ev085P2b0Cd2to0nUFgiz-bq4W_Xjwv2WRFFczLpaPahCWL3cX4iqHnwyswTICYzwVQVQHMRf4NMaazQ5dC2jHH_oGkcJMd6J_4OSSTjjOvXXrH4QWd9EhDGnF-3r-I3Bjbn9W9I5lrTGhS3LTGPTBYNqaPIKZfZCGv7NRaNJQ"
+    ],
+    "lat": 42.4099455,
+    "lng": -71.08637809999999,
+    "name": "Smashburger",
+    "num_ratings": 347,
+    "place_id": "ChIJ68Ff4jlx44kRst2vOUbKL9Q",
+    "price_level": 2,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 5.069765989,
+        "duration": 914
+      },
+      "transit": {
+        "distance": 6.5517358240000005,
+        "duration": 3841
+      },
+      "walking": {
+        "distance": 5.169185349,
+        "duration": 6368
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAHokcNTIKr87OYe5IaMeVund3x_-084OE8idkb57ND2lS8KrKfgWBoTMPvBPMWzij6nQifZxuJQ-f2wxHgmnTd6UoSZ_THGyLOCND9KdTeCxbi1doEPVo0U8reTl-kmreEhDmlcAHl6VI0UNEkX9YN-hFGhTTVm6Mc9ymegDbjxeBmch5Ru46Fw"
+    ],
+    "lat": 42.4070583,
+    "lng": -71.09210790000002,
+    "name": "The Burger Bar by Wegmans",
+    "num_ratings": 42,
+    "place_id": "ChIJu3NTIzJx44kRV2yRu8UQERk",
+    "price_level": 2,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 5.430161169,
+        "duration": 885
+      },
+      "transit": {
+        "distance": 6.961840684,
+        "duration": 3913
+      },
+      "walking": {
+        "distance": 5.350625681,
+        "duration": 6565
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAA1GZdS-_SmjvzrNhTOxU3GG2iGAyUaLHD8ZcOYJ0OzXYAKATQH-PLLuqye05GgftLCrKWXA454D5HXVaSErQMvOutRVZpks5Li6QgCHRE8KqtXhyYPHaE1Mi4Zn7VvonTEhAm44rDsh9LHv6SmuF0ff0SGhS2tGF9UyBmqbwu6vKO-TCZO4wqyA"
+    ],
+    "lat": 42.3722839,
+    "lng": -71.12097349999999,
+    "name": "Shake Shack",
+    "num_ratings": 1468,
+    "place_id": "ChIJjdXMVV1344kRfL2NaGftxqI",
+    "price_level": 2,
+    "rating": 4.3,
+    "travel_info": {
+      "driving": {
+        "distance": 6.53060921,
+        "duration": 1010
+      },
+      "transit": {
+        "distance": 4.619893385,
+        "duration": 2086
+      },
+      "walking": {
+        "distance": 4.426025633,
+        "duration": 5517
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAoQXRi395hCPw455hv_4dydht4XKamxvGPSswAJzXJ3CGFD3uG3vavNNBVVJn-cWWteNxoMqIpfZ5gRfPdNKWRzqrdOUh6joVN5VjgIwz4IPN7PZfjP3EwjNapzbJmDq4EhC9hnEh2cXaBMlzePJPk1pQGhTydiTOxewWMXlTLrQRaqSNMBUi3g"
+    ],
+    "lat": 42.3736109,
+    "lng": -71.12082769999999,
+    "name": "Flat Patties",
+    "num_ratings": 399,
+    "place_id": "ChIJ6b35oEJ344kRftT4Tms6C0o",
+    "price_level": 1,
+    "rating": 4.3,
+    "travel_info": {
+      "driving": {
+        "distance": 6.695272525,
+        "duration": 1102
+      },
+      "transit": {
+        "distance": 4.58571798,
+        "duration": 2030
+      },
+      "walking": {
+        "distance": 4.457715554,
+        "duration": 5557
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAAgOf-nR3PM0b8XFcNqUDMrQSykZJEbzbRyJMDh9xnQHrqElSIq5_1sYauToqxrpAHJ75Ec-39FxTKQ9OyaZ6a3v9MmQj59umzlFvmZOz_B5wUf4aT5NsrQ_7HGahUqVBYEhALh5Ff5NpGEBT2LGWDfhipGhRAj6F88axxg4TmRqubSMuD4qZhyw"
+    ],
+    "lat": 42.341842,
+    "lng": -71.121468,
+    "name": "Lee's Burger",
+    "num_ratings": 391,
+    "place_id": "ChIJdypj079544kRkxpxt3RQYdA",
+    "price_level": 1,
+    "rating": 4.3,
+    "travel_info": {
+      "driving": {
+        "distance": 5.891218451,
+        "duration": 1267
+      },
+      "transit": {
+        "distance": 4.455851441,
+        "duration": 2425
+      },
+      "walking": {
+        "distance": 4.192390137,
+        "duration": 5134
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAATaR1Jhu2IhsMVhbcZBx2b4D7HZWG9OJtHu3vdrjYCeN5nUj9TmhvxcGi6iQ0Kee8qQuuwTCOIXW9E8GjvRHD6SGD4lzHgLAO_z8b_imMnLaQKGda05NmqitFW7C_2nHGEhBRbj0c9jfeDxzs9XxdHY9EGhSLUWlLEan1UqcBtHcrGgY4Wd4xUA"
+    ],
+    "lat": 42.3506417,
+    "lng": -71.13132010000001,
+    "name": "Five Guys",
+    "num_ratings": 489,
+    "place_id": "ChIJ57D33cV544kRQNq-ze1fQ84",
+    "price_level": 2,
+    "rating": 4.2,
+    "travel_info": {
+      "driving": {
+        "distance": 6.035376523,
+        "duration": 1087
+      },
+      "transit": {
+        "distance": 4.937413966,
+        "duration": 2687
+      },
+      "walking": {
+        "distance": 4.665874839,
+        "duration": 5797
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAA8fGkrAjNnJORVPvflXH9P3IhU_1YR_6eiDx_j4atfWtWNtJ9CNdmReXMCJJc0-60_gt-XGnToRkKkJbJjDf18VN0EQM0EiX3zz8YfUj4L76cD4yG3d9BY-23UcILZmhiEhAuVF55cz9SOpHn_4ArRBzMGhQ2xk5hDjCE3A25FiJ9V5bRvdv5ug"
+    ],
+    "lat": 42.3538514,
+    "lng": -71.1371851,
+    "name": "Roxy's Grilled Cheese & Burgers",
+    "num_ratings": 281,
+    "place_id": "ChIJnxXv9c5544kRRJ9uhQ_bJaI",
+    "price_level": 1,
+    "rating": 4.6,
+    "travel_info": {
+      "driving": {
+        "distance": 5.944656357,
+        "duration": 1007
+      },
+      "transit": {
+        "distance": 5.726555136,
+        "duration": 2075
+      },
+      "walking": {
+        "distance": 4.993958727,
+        "duration": 6096
+      }
+    }
+  },
+  {
+    "_photo_refs": [
+      "CmRaAAAABAakx9b03pRbOh4l0UQOZASS2B3QUTouB5AP1sIDiO5mhNrhamq0iBzFoqPIHIGyEYENKf-_bIuDsd_BB1Q-WesY7_zR5GuDWds3Wyer28pPjmb6HNUgvG-L52P8Qk-TEhCfn6wRB6fD0RTLQQdfxZ75GhQ0x8iedpwiX4osiDlTWfNsQrTaPQ"
+    ],
+    "lat": 42.27336589999999,
+    "lng": -71.06799699999999,
+    "name": "Bred Gourmet",
+    "num_ratings": 180,
+    "place_id": "ChIJG9LLBnR844kR0pPSWmuC3TE",
+    "price_level": 2,
+    "rating": 4.4,
+    "travel_info": {
+      "driving": {
+        "distance": 8.192155264,
+        "duration": 1012
+      },
+      "transit": {
+        "distance": 6.887276164,
+        "duration": 2209
+      },
+      "walking": {
+        "distance": 5.602280936,
+        "duration": 6888
+      }
+    }
+  }
+]

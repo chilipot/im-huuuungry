@@ -12,7 +12,6 @@ class Scorer:
     def __init__(self, wt_loc, wt_rating, wt_price):
         """ Constructs a scorer
 
-        :param cuisine_prefs: A dict representing the cuisine preferences of the user
         :param wt_loc: The importance of the location of the restaurant, float from 0 to 1
         :param wt_rating: The importance of the rating of the restaurant, float from 0 to 1
         :param wt_price: The importance of the price of the restaurant, float from 0 to 1
