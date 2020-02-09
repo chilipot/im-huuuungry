@@ -2,10 +2,11 @@ import React from 'react';
 import { SafeAreaView, View, FlatList, StyleSheet, Text, Image, Button } from 'react-native';
 import RestaurantCard from '../components/SwipeCards';
 
-function DetailsScreen() {
+function DetailsScreen({route}) {
+    const {cuisine} = route.params
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <RestaurantCard/>
+        <RestaurantCard cuisine={cuisine}/>
     </View>
   );
 }

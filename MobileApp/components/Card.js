@@ -14,7 +14,7 @@ import Constants from 'expo-constants';
  */
 function Card({ title, navigation, target, deleteCuisine }) {
 
-    const { colors } = useTheme();
+    const { colors, font } = useTheme();
 
     const styles = StyleSheet.create({
       item: {
@@ -24,7 +24,7 @@ function Card({ title, navigation, target, deleteCuisine }) {
         marginHorizontal: 16,
       },
       title: {
-        fontSize: 16,
+        fontSize: font.medium,
         color: colors.text,
       },
     });
@@ -40,7 +40,7 @@ function Card({ title, navigation, target, deleteCuisine }) {
     <Swipeout right={swipeBtns}
         autoClose={true}
         backgroundColor='transparent'>
-        <TouchableOpacity onPress={() => navigation.navigate(target)}>
+        <TouchableOpacity onPress={() => navigation.navigate(target, {cuisine: title})}>
             <View style={styles.item}>
               <Text style={styles.title}>{title}</Text>
             </View>

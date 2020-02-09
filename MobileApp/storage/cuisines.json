@@ -1,22 +1,22 @@
 [
     {
       "id": "0",
-      "label": "Burgers",
+      "label": "burger",
       "emoji": "\uD83C\uDF54"
     },
     {
       "id": "1",
-      "label": "Pizza",
+      "label": "pizza",
       "emoji": "\uD83C\uDF55"
     },
     {
       "id": "2",
-      "label": "Asian",
+      "label": "asian",
       "emoji": "\uD83E\uDD5F"
     },
     {
       "id": "3",
-      "label": "Mexican",
+      "label": "mexican",
       "emoji": "\uD83C\uDF2E"
     }
 ]
