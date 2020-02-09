@@ -10,8 +10,11 @@ WT_INCR = 1
 app = Flask(__name__)
 CORS().init_app(app)
 
-
 @app.route('/')
+def index():
+    return "Why would you make the API call the root URI"
+
+@app.route('/restaurants')
 def get_scored_restaurants():
     """
     Calculates the scores for all the restaurants. The wrapper for all the backend functionality.
@@ -50,3 +53,6 @@ def get_scored_restaurants():
         "loc_branch_weights": {"wt_loc": wt_loc + WT_INCR, "wt_rating": wt_rating, "wt_price": wt_price},
         "price_branch_weights": {"wt_loc": wt_loc, "wt_rating": wt_rating, "wt_price": wt_price + WT_INCR}
     }), 200
+
+if __name__ == '__main__':
+    app.run(debug=True)

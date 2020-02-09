@@ -1,2 +1,5 @@
 .idea/
 MobileApp/node_modules
+__pycache__
+venv/
+.idea/
